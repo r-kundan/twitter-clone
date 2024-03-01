@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebarOption{
+    display:flex;
+    align-items:center;
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: #e8f5fe;
+        border-radius: 30px;
+        color: var(--twitter-color);
+        transition: color 100ms ease-out;
+fill: #0093ee;
+
+    }
+}
+.sidebarOption > .icon{
+    margin: 20px;
+
+}
+.sidebarOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sidebarOption--active{
+    color: var(--twitter-color);
+fill: #0093ee;
+
+
+}
